@@ -6,35 +6,47 @@
     <title>Contact</title>
 </head>
 <body>
- 
-        <header>
-            <h1>Daniels Portfolio</h1>
-            <hr>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="projects.html">Project</a>
-                <a href="skills.html">Skill</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-                </header>
-                <main>
-                    <form id="contactForm">
-                        <label for="name">Name</label>
-                       <input type="Text" value="Write Your Name"required>
+    <header>
+        <h1>Daniel's Portfolio</h1>
+        <hr>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Me</h2>
+        <div></div>
+            <img class="contact-image" src="images/oldDaniel.jpg" alt="Contact Image">
+        </div>
+        <p>Feel free to reach out to me using the form below:</p>
 
-                       <label for="Email"> Email </label>
-                       <input type="text" value="Write Email"required>
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Write your name" required>
+            <row>
+                <div>
 
-                       <label for="Message">Message</label>
-                       <textarea id="Messages" required>Write a Message</textarea>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Write your email" required>
+                </div>
 
-                       <button type="submit">Send</button>
-                    </form>
-                </main>
-                <footer>
-                    <p>© 2026 Daniel Portfolio</p>
-                </footer>
+                <div>
 
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
 
+                </div>
+            </row>
+            <button type="save">Save</button>
+            <button type="submit">Send</button>
+            
+        </form>
+    </main>
+    <footer>
+        <p>© 2026 Daniel Portfolio</p>
+    </footer>
 </body>
 </html>
