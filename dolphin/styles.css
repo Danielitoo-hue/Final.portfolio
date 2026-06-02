@@ -1,0 +1,59 @@
+/* === Typography and Base Style === */
+body {
+  background-color: rgb(72, 239, 183);
+}
+
+/* === Grid & Page Layout === */
+
+/* == Grid-container == */
+container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+/* == Header Section == */
+header {
+  grid-column: 1/ span 3;
+  background-color: red;
+}
+
+/* == SideBar-Container == */
+sidebar {
+  grid-column: 1/2;
+  background-color: green;
+}
+
+/* == Content Section == */
+content {
+  grid-column: 2/ span 2;
+  background-color: yellow;
+}
+
+/* == extra section == */
+extra {
+  grid-column: 1/ span 3;
+  grid-row: 3/4;
+  background-color: blue;
+}
+
+/* == footer section ==  */
+footer {
+  grid-column: 1/ span 3;
+  grid-row: 4/4;
+  background-color: orange;
+}
+
+/* === Accesibility And responsive ===*/
+
+/* Phone - Min-width: 320px */
+@media screen and (min-width: 320px) {
+}
+/* Tablet - min-width: 768px */
+@media screen and (min-width: 768px) {
+}
+/* Small Desktop - min-width: 1024px */
+@media screen and (min-width: 1024px) {
+}

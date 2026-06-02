@@ -1,56 +1,98 @@
 body{
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-background-color: rgb(255, 254, 254);    
-color: rgb(10, 9, 18);
-line-height: 2;
-}
-
-header {
-background-color: rgb(241, 241, 241);
-padding: 25;
-text-align:center;
-border-bottom: 2px solid color(srgb rgb(232, 162, 162) rgb(255, 255, 255) rgb(69, 69, 217));
-justify-content: space-between;
-}
-
-header h1{
-    margin-bottom: 15px;
-    font-size: 2.rem;
-}
-
-nav{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-nav a{
-    text-decoration: none;
-    color: rgb(100, 17, 168);
-    background-color: aquamarine;
-    padding: 10px;
-    border-radius: 8px;
-    transition: 0.3s;
-    margin: auto;
-}
-
-main{
-    max-width: 1000px;
-    width: 100;
-    margin: auto;
-    padding: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-.project-dispay img{
-    width: 100;
-    height:auto;
-    display: block;
-    object-fit: cover;
-    transition: transform 0.3s;
-}
-
-.project-dispay a:hover img{
-        transform:scale(1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 254, 254);    
+    color: rgb(10, 9, 18);
+    line-height: 2;
     }
+    
+    header {
+    background-color: rgb(241, 241, 241);
+    padding: 25;
+    text-align:center;
+    border-bottom: 2px solid color(srgb rgb(232, 162, 162) rgb(111, 52, 52) rgb(69, 69, 217));
+    justify-content: space-between;
+    }
+
+    .dolphinImg, .MountainsImg{
+        width: 300px;
+        height: 250px;
+        display: block;
+        margin: left;
+    }
+
+    header.Learned{
+        background-color: rgb(241, 241, 241);
+    padding: 25;
+    text-align:center;
+    border-bottom: 2px solid color(srgb rgb(232, 162, 162) rgb(111, 52, 52) rgb(69, 69, 217));
+    justify-content: space-between;
+    }
+    .themeBtn{
+        background-color: rgb(131, 90, 71);
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    header h1{
+        margin-bottom: 15px;
+        font-size: 2.rem;
+    }
+    
+   #mySkills{
+    background-color: rgb(241, 241, 241);
+    padding: 25;
+    text-align:left;
+    margin: 10px;
+    border-bottom: 2px solid color(srgb rgb(232, 162, 162) rgb(111, 52, 52) rgb(69, 69, 217));
+    justify-content: space-between;
+
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    nav a{
+        text-decoration: none;
+        color: rgb(100, 17, 168);
+        background-color: aquamarine;
+        padding: 10px;
+        border-radius: 8px;
+        transition: 0.3s;
+        margin: auto;
+    }
+
+
+    
+    main{
+        max-width: 1000px;
+        width: 100;
+        margin: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .project-dispay img{
+        width: 100;
+        height:auto;
+        display: block;
+        object-fit: cover;
+        transition: transform 0.3s;
+    }
+    
+    .project-dispay a:hover img{
+            transform:scale(1);
+        }
+
+        .contact-image{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        
